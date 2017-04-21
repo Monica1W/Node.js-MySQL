@@ -67,7 +67,7 @@ console.log(table.toString());
                         //checking the datbase to see if there is enough of the item you want to buy
                         if (chosenItem.stock_quantity < parseInt(answer.number)) {
                         
-                          console.log('Insufficient Quantity');
+                          console.log('Oh no we do not have that much in stock!');
                            
                         } else {
                           var amount = parseInt(answer.number);
